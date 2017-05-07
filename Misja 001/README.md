@@ -1,4 +1,4 @@
-Misja 001
+﻿Misja 001
 =========
 ([powrót][1])
 
@@ -19,19 +19,21 @@ kluczem.
 1199
 12961350
 ```
-Moim rozwiązaniem był "inteligentny" brute-force. Pierwszym krokiem było uzyskanie słownika czyli [listy wszystkich
+Moim rozwiązaniem był "inteligentny" brute-force. Pierwszym krokiem było uzyskanie słownika, czyli [listy wszystkich
 angielskich słów][3]. Następnie słowa do rozszyfrowania zostały posortowane w kolejności od najkrótszego do
 najdłuższego. Słownik został posortowany w ten sam sposób, lecz wcześniej zostały z niego usunięte wszystkie wyrazy
 krótsze oraz dłuższe od zaszyfrowanych słów.
 
 Z tak przygotowanymi danymi można było zacząć łamać klucz. Algorytm zaczyna od najkrótszego zaszyfrowanego słowa i
-XORuje je ze wszystkimi słowami w słowniku o tej samej długości uzyskiwając podstawowe klucze. Następnie brane jest
-kolejne słowo, które jest XORowane ze swoimi rówieśnikami i uzyskujemy kolejną listę kluczy. Z owej listy zachowywane są
-tylko te klucze, których początek zgadza się z którymś z kluczy podstawowych. Tak uzyskane klucze są używane jako klucze
-podstawowe w kolejnych iteracjach. Po zbrutowaniu wszystkich zaszyfrowanych słów uzyskujemy klucze, które dają sensowne
-rozwiązania. W tym wypadku jest ono tylko jedno.
+XORuje je ze wszystkimi słowami w słowniku o tej samej długości dzięki czemu otrzymuje listę prawdopodobnych kluczy.
 
-Klucz: 7eff753554bda9
+Następnie dla każdego słowa jest generowana lista prawdopodobnych kluczy generowanych w identyczny sposób, a następnie
+scalana jest z poprzednią listą w ten sposób, że zachowywane są tylko te klucze które zaczynają się od jakiegokolwiek
+klucza z poprzedniej listy. Dzięki czemu dostajemy listę kluczy, które mają sens dla aktualnego i wszystkich
+poprzednich słów.
+
+Po zakończeniu algorytmu uzyskujemy wszystkie klucze które mają sens dla danej listy. W tym wypadku jest tylko jeden
+klucz: ```7eff753554bda9```
 ```
 and
 if
@@ -47,8 +49,8 @@ life
 ```
 Jest to pierwsze zdanie w utworze Blood Brothers zespołu Iron Maiden.
 
-Oczywiście możliwe jest otrzymanie tylko 56-bitów klucza, ponieważ tyle miało najdłuższe słowo. Oczywiście zapraszam
-do lektury kodu deszyfrującego w pliku [decode.py][4]
+Oczywiście możliwe jest otrzymanie tylko 56-bitów klucza, ponieważ tyle miało najdłuższe słowo. Zapraszam do lektury
+kodu deszyfrującego w pliku [decode.py][4]
 
 ([powrót][1])
 
