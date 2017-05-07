@@ -63,7 +63,7 @@ Oczywiście jakbym znał lepiej Pythona to kod był by krótszy... znacznie kró
 
 ([powrót][1])
 
-[1]: ..\README.md
+[1]: ../README.md
 [2]: https://www.youtube.com/watch?v=FN-5CowRdXM
 [3]: https://pl.wikipedia.org/wiki/Base64
 [4]: https://en.wikipedia.org/wiki/Base64

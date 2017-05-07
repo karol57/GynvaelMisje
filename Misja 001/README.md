@@ -52,7 +52,7 @@ do lektury kodu deszyfrującego w pliku [decode.py][4]
 
 ([powrót][1])
 
-[1]: ..\README.md
+[1]: ../README.md
 [2]: https://www.youtube.com/channel/UCjS2aGCvsnhExcWRAI8T4Pw
 [3]: https://github.com/dwyl/english-words/blob/master/words.txt
 [4]: decode.py
