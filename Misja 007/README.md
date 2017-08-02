@@ -6,7 +6,7 @@ Stream: [Gynvael's Livestream #44: Raytracer #3 - optymalizacja][2]
 
 A więc pojawiła się kolejna misja:
 ```
-MISJA 007            [goo.gl/f6ogMR]                  DIFFICULTY: █░░░░░░░░░ [1/10]
+MISJA 007            <goo.gl/f6ogMR>                  DIFFICULTY: █░░░░░░░░░ [1/10]
 ┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
 Otrzymaliśmy zaszyfrowaną wiadomość. Podobno użyty został potężny algorytm ROTn,
 ale ze zmieniającym się kluczem. Klucz podobno zmienia się w prosty do
