@@ -8,6 +8,7 @@ powiedzmy wstęp do prowadzenia bloga.
 * [Misja 002][4] z [Gynvael's Livestream #38: Pluginy, DLLki - z czym to się je][5]
 * [Misja 003][6] z [Gynvael's Livestream #39: RPC, czyli zdalne API][7]
 * [Misja 006][8] z [Gynvael's Livestream #43: Raytracer #2 - implementacja][9]
+* [Misja 007][10] z [Gynvael's Livestream #44: Raytracer #3 - optymalizacja][11]
 
 [1]: https://www.youtube.com/channel/UCjS2aGCvsnhExcWRAI8T4Pw
 [2]: Misja%20001/README.md
@@ -18,3 +19,5 @@ powiedzmy wstęp do prowadzenia bloga.
 [7]: https://www.youtube.com/watch?v=xR0hAJPp1vs
 [8]: Misja%20006/README.md
 [9]: https://www.youtube.com/watch?v=w-7vLvTKJbI
+[10]: Misja%20007/README.md
+[11]: https://www.youtube.com/watch?v=JXZicjwhpwQ
